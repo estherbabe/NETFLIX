@@ -12,7 +12,13 @@ hr {
 }
 
 header {
-    /* background-image: url(/images/NG-en-20220111-popsignuptwoweeks-perspective_alpha_website_small.jpg); */
+    color: #fff;
+    background-image: url(/images/NG-en-20220111-popsignuptwoweeks-perspective_alpha_website_small.jpg); 
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: none;
 }
 
 .logo {
@@ -27,5 +33,7 @@ header {
     margin-left: 75%;
 }
 
-
+.tv-col img{
+    max-width: 90%;
+}
 
