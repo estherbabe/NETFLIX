@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Open+Sans:wght@300;500&display=swap');
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -5,6 +9,8 @@
 
 body {
     background-color: #000;
+font-family: 'Montserrat', 'Open Sans', sans-serif;
+
 }
 
 hr {
@@ -21,19 +27,181 @@ header {
     padding-bottom: none;
 }
 
-.logo {
-    color: #e50914;
-    font-weight: bold;
-    font-size: 2.5rem;
-    margin-left: 4%;
-}
+ .svg-icon-netflix-logo {
+    width: 11%;
+    margin-left: 5%;
+    margin-top: -10%;
+} 
 
 .header-button {
-    background-color: #e50914;
-    margin-left: 75%;
+    margin-right: 4%;
+    margin-top: -7%;
 }
 
-.tv-col img{
-    max-width: 90%;
+.header-button a{
+   text-align: center;
+   color: #fff;
+   background-color: #e50914;
+   padding: 8px 15px;
+   text-decoration: none;
+   border-radius: 5px;
 }
+
+.header-txt {
+    text-align: center;  
+}
+
+.header-txt h1 {
+    font-size: 50px;
+}
+
+.header-txt h2 {
+    font-size: 30px;
+    margin-top: 12px;
+
+ }
+.header-email { 
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.header-email h3 {
+    font-size: 20px;
+}
+.header-email input {
+    margin-top: 0.5rem;
+}
+.email {
+    padding: 17px 14px;
+    width: 35%;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.email-btn {
+    padding: 10px 11px;
+    width: 15%;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.header-hr {
+    margin-top: -0.03rem;
+}
+
+/* tv section */
+
+.tv-col img{
+    max-width: 80%;
+    margin-bottom: 2em;
+}
+
+.tv-section-txt {
+  max-width: 40%;
+    margin: 7em 2em 0 6em;
+    text-align: center;
+    color: #fff;
+}
+
+.tv-section h1 {
+    font-size: 2.7em;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.tv-section h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* download section */
+
+.download-section-txt {
+    max-width: 40%;
+     margin: 8em 6em 0 2em;
+     text-align: center;
+     color: #fff;
+  }
+
+  .download-section h1 {
+    font-size: 2.7em;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+
+.download-section h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.download-section img{
+    max-width: 75%;
+    margin-bottom: 3em;
+    margin-left: 7em;
+}
+
+/* watch section */
+.watch-section {
+    max-width: 40%;
+    margin: 3em 2em 0 6em;
+    text-align: center;
+    color: #fff;
+}
+
+.watch-section h1{
+    font-size: 2.7em;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.watch-section h2 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* kids section */
+
+.kids-section-txt {
+    max-width: 40%;
+     margin: 8em 6em 0 2em;
+     text-align: center;
+     color: #fff;
+  }
+  .kids-section h1{
+    font-size: 2.7em;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.kids-section h2 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.kids-section img{
+    max-width: 75%;
+    margin-bottom: 3em;
+    margin-left: 7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
