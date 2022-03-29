@@ -27,25 +27,26 @@ header {
     padding-bottom: none;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 64px;
+}
  .svg-icon-netflix-logo {
     width: 11%;
-    margin-left: 5%;
     margin-top: -10%;
 } 
 
-.header-button {
-    margin-right: 4%;
-    margin-top: -7%;
-}
 
-.header-button a{
+
+ .header-button a{
    text-align: center;
    color: #fff;
    background-color: #e50914;
    padding: 8px 15px;
    text-decoration: none;
    border-radius: 5px;
-}
+} 
 
 .header-txt {
     text-align: center;  
