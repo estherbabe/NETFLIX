@@ -78,11 +78,10 @@ header {
     display: flex;
 justify-content: center
 }
-.subscribe-form input {
+.input-div input {
     min-height: 100%;
-    width: 500px;
     border-radius: 0px;
-    
+    width: 100%;
 }
 
 .email{
@@ -93,11 +92,10 @@ justify-content: center
     text-decoration: none
 } 
 
-.email-button {
-     display: flex; 
+.email-button { 
     padding: 15px 10px 15px 10px;
     background-color: #e50914;
-    
+    width: 120px;
     /* margin-left: -0.187em;
     padding: 11px 11px;
     width: 15%;
