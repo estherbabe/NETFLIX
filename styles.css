@@ -31,10 +31,11 @@ header {
     display: flex;
     justify-content: space-around;
     height: 64px;
+    
 }
  .svg-icon-netflix-logo {
     width: 11%;
-    margin-top: -10%;
+    /* margin-top: -10%; */
 } 
 
 
@@ -72,23 +73,43 @@ header {
 .header-email input {
     margin-top: 0.5rem;
 }
-.email {
+
+.subscribe-form {
+    display: flex;
+justify-content: center
+}
+.subscribe-form input {
+    min-height: 100%;
+    width: 500px;
+    border-radius: 0px;
+    
+}
+
+.email{
     padding: 17px 14px;
     width: 35%;
     font-size: 0.95em;
     font-weight: 400;
-    text-decoration: none;
-}
+    text-decoration: none
+} 
 
-.email-btn {
-    margin-left: -0.187em;
+.email-button {
+     display: flex; 
+    padding: 15px 10px 15px 10px;
+    background-color: #e50914;
+    
+    /* margin-left: -0.187em;
     padding: 11px 11px;
     width: 15%;
-    background-color: #e50914;
     color: #fff;
     font-size: 1.4em;
     font-weight: 400;
+    text-decoration: none; */
+}
+
+.email-button a {
     text-decoration: none;
+    color: #fff;
 }
 
 .header-hr {
