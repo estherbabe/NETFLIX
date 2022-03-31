@@ -71,6 +71,9 @@ header {
     font-size: 20px;
 }
 
+.header-txt-container {
+    margin-top: 10%;
+}
 .subscribe-form {
     margin-top: 1.5%;
     display: flex;
@@ -95,13 +98,6 @@ justify-content: center
     background-color: #e50914;
     width: 15%;
     text-align: center;
-    /* margin-left: -0.187em;
-    padding: 11px 11px;
-    width: 15%;
-    color: #fff;
-    font-size: 1.4em;
-    font-weight: 400;
-    text-decoration: none; */
 }
 
 .email-button a {
