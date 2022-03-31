@@ -70,18 +70,16 @@ header {
 .header-email h3 {
     font-size: 20px;
 }
-.header-email input {
-    margin-top: 0.5rem;
-}
 
 .subscribe-form {
+    margin-top: 1.5%;
     display: flex;
 justify-content: center
 }
 .input-div input {
     min-height: 100%;
     border-radius: 0px;
-    width: 100%;
+    width: 500px;
 }
 
 .email{
@@ -95,7 +93,8 @@ justify-content: center
 .email-button { 
     padding: 15px 10px 15px 10px;
     background-color: #e50914;
-    width: 120px;
+    width: 15%;
+    text-align: center;
     /* margin-left: -0.187em;
     padding: 11px 11px;
     width: 15%;
@@ -106,6 +105,7 @@ justify-content: center
 }
 
 .email-button a {
+    font-size: 1.4em;
     text-decoration: none;
     color: #fff;
 }
@@ -247,7 +247,6 @@ font-weight: bold;
 .footer-question a {
     font-size: 1em;
 }
-
 
 
 
