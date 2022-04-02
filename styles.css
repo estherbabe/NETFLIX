@@ -218,6 +218,18 @@ font-size: 3em;
 font-weight: bold;
 }
 
+
+.faq-accordion-div {
+max-width: 60%;
+margin: 3% 20% 3% 20%;
+}
+
+.faq-button {
+background: #303030;
+color: #fff;
+
+}
+
 /* footer */
 .footer {
     max-width: 65%;
