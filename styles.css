@@ -111,15 +111,22 @@ justify-content: center
 }
 
 /* tv section */
+.tv-section {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
 
 .tv-col img{
     max-width: 80%;
+    margin: auto;
     margin-bottom: 2em;
 }
 
 .tv-section-txt {
   max-width: 40%;
-    margin: 7em 2em 0 6em;
+  margin: auto;
+    /* margin: 7em 2em 0 6em; */
     text-align: center;
     color: #fff;
 }
