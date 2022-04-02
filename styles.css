@@ -118,6 +118,7 @@ header {
 .tv-section {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .tv-col img {
@@ -147,6 +148,7 @@ header {
 .download-section {
 display: flex;
 align-items: center;
+justify-content: space-around;
 }
 
 .download-section-txt {
@@ -176,6 +178,7 @@ align-items: center;
 /* watch section */
 .watch-section {
     max-width: 40%;
+    justify-content: center;
     margin: 3em 2em 0 6em;
     text-align: center;
     color: #fff;
@@ -195,6 +198,8 @@ align-items: center;
 /* kids section */
 .kids-section{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .kids-section-txt {
     max-width: 40%;
