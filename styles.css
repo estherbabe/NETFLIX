@@ -117,6 +117,7 @@ header {
 /* tv section */
 .tv-section {
     display: flex;
+    align-items: center;
 }
 
 .tv-col img {
@@ -143,10 +144,14 @@ header {
 }
 
 /* download section */
+.download-section {
+display: flex;
+align-items: center;
+}
 
 .download-section-txt {
     max-width: 40%;
-    margin: 8em 6em 0 2em;
+    margin: auto;
     text-align: center;
     color: #fff;
 }
@@ -164,9 +169,8 @@ header {
 }
 
 .download-section img {
+    margin: auto;
     max-width: 75%;
-    margin-bottom: 3em;
-    margin-left: 7em;
 }
 
 /* watch section */
@@ -189,10 +193,12 @@ header {
 }
 
 /* kids section */
-
+.kids-section{
+    display: flex;
+}
 .kids-section-txt {
     max-width: 40%;
-    margin: 8em 6em 0 2em;
+    margin: auto;
     text-align: center;
     color: #fff;
 }
@@ -211,7 +217,7 @@ header {
 .kids-section img {
     max-width: 75%;
     margin-bottom: 3em;
-    margin-left: 7em;
+    margin: auto;
 }
 
 /* faq-section */
