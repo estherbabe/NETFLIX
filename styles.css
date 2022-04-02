@@ -19,7 +19,7 @@ hr {
 
 header {
     color: #fff;
-    background-image: url(/images/NG-en-20220111-popsignuptwoweeks-perspective_alpha_website_small.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(/images/NG-en-20220111-popsignuptwoweeks-perspective_alpha_website_small.jpg); 
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
