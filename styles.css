@@ -224,10 +224,15 @@ max-width: 60%;
 margin: 3% 20% 3% 20%;
 }
 
+.accordion-item {
+margin-bottom: 1%;
+}
+
 .faq-button {
 background: #303030;
 color: #fff;
-
+font-size: 25px;
+font-size: 400;
 }
 
 /* footer */
