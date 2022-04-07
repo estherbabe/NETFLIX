@@ -22,7 +22,6 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(/images/NG-en-20220111-popsignuptwoweeks-perspective_alpha_website_small.jpg);
     background-size: cover;
     background-position: center center;
-    min-height: 100vh;
     margin: 0;
     padding-bottom: none;
 }
@@ -73,20 +72,30 @@ header {
     font-size: 20px;
 }
 
-.header-txt-container {
-    margin-top: 10%;
+.header-container {
+    padding: 70px 45px;
 }
 
+.header-txt-container {
+    padding: 75px 0px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.header-txt-container p {
+    text-align: left;
+}
 .subscribe-form {
     margin-top: 1.5%;
     display: flex;
     justify-content: center
 }
-
+.input-div {
+    width: 500px;
+}
 .input-div input {
     min-height: 100%;
     border-radius: 0px;
-    width: 500px;
+    width: 100%;
 }
 
 .email {
@@ -100,7 +109,7 @@ header {
 .email-button {
     padding: 15px 10px 15px 10px;
     background-color: #e50914;
-    width: 15%;
+    width: 250px;
     text-align: center;
 }
 
@@ -109,6 +118,9 @@ header {
     text-decoration: none;
     color: #fff;
 }
+.email-alert{
+    color: #ffa00a;
+}
 
 .header-hr {
     margin-top: -0.03rem;
@@ -116,20 +128,29 @@ header {
 
 /* tv section */
 .tv-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    padding: 70px 45px;
 }
 
-.tv-col img {
-    max-width: 80%;
-    margin: auto;
+.tv-div {
+    display: flex;
+    height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.tv-col-img {
+    background-image: url(/images/tv.png);
+    min-height: 400px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
 }
 
 .tv-section-txt {
-    max-width: 40%;
+    max-width: 50%;
     margin: auto;
-    text-align: center;
     color: #fff;
 }
 
@@ -146,15 +167,18 @@ header {
 
 /* download section */
 .download-section {
-display: flex;
-align-items: center;
-justify-content: space-around;
+    padding: 70px 45px;
+}
+
+.download-div {
+    display: flex;
+    height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .download-section-txt {
-    max-width: 40%;
     margin: auto;
-    text-align: center;
     color: #fff;
 }
 
@@ -177,10 +201,19 @@ justify-content: space-around;
 
 /* watch section */
 .watch-section {
-    max-width: 40%;
-    justify-content: center;
-    margin: 3em 2em 0 6em;
-    text-align: center;
+    padding: 70px 45px;
+}
+
+.watch-div{
+    display: flex;
+    height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.watch-txt {
+    max-width: 50%;
+    justify-content: left;
+    text-align: left;
     color: #fff;
 }
 
@@ -196,15 +229,18 @@ justify-content: space-around;
 }
 
 /* kids section */
-.kids-section{
+.kids-section {
+padding: 70px 45px;
+}
+.kids-div{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 .kids-section-txt {
-    max-width: 40%;
+    max-width: 50%;
     margin: auto;
-    text-align: center;
     color: #fff;
 }
 
@@ -227,9 +263,14 @@ justify-content: space-around;
 
 /* faq-section */
 .faq-section {
+    padding: 75px 40px;
     text-align: center;
     color: #fff;
-    margin-top: 4em;
+}
+
+.faq-container{
+    max-width: 1100px;
+    margin:  0 auto;
 }
 
 .faq-section h1 {
@@ -239,7 +280,7 @@ justify-content: space-around;
 
 
 .faq-accordion-div {
-    max-width: 60%;
+    max-width: 100%;
     margin: 3% 20% 3% 20%;
 }
 
@@ -270,10 +311,13 @@ justify-content: space-around;
 
 /* footer */
 .footer {
-    max-width: 65%;
     justify-items: center;
     margin-left: 15rem;
     margin-top: 4rem;
+}
+.footer-div{
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .footer a {
